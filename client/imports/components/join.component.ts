@@ -28,7 +28,6 @@ export class JoinComponent {
 
     if (this.model.password !== this.model.passwordVerify) {
       this.errors.push("Passwords does not match!");
-
       return;
     }
 
@@ -40,7 +39,6 @@ export class JoinComponent {
         this.zone.run(() => {
           this.errors.push(err.reason);
         });
-
         return;
       }
 

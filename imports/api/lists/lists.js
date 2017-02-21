@@ -70,4 +70,3 @@ Lists.collection.helpers({
     return Todos.find({ listId: this._id }, { sort: { createdAt: -1 } });
   },
 });
-
