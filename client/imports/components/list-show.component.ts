@@ -7,7 +7,7 @@ import {
   makePublic,
   makePrivate,
   remove,
-  insert,
+  insert
 } from '../../../imports/api/todos/methods';
 import { displayError } from '../../../imports/errors';
 import {Observable} from "rxjs";
@@ -55,7 +55,7 @@ export class ListShowComponent implements OnInit {
                 listId: list._id,
             }, displayError);
 
-            this.router.navigate(['Home']);
+            this.router.navigate(['']);
 
             return true;
         }

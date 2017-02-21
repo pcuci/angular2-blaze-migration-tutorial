@@ -2,7 +2,7 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
 import {
   setCheckedStatus,
   updateText,
-  remove,
+  remove
 } from '../../../imports/api/todos/methods';
 import {displayError} from '../../../imports/errors';
 import template from "./list-item.html";
