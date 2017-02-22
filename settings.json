@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+     "env": {
+       "MONGO_URL": "mongodb://root:nodeschool@ds157499.mlab.com:57499/nodeschool"
+     }
+   }
+}
